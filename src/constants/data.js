@@ -15,6 +15,8 @@ import newsteller from "../assets/projects/newsteller.jpg";
 import innvoicegenerator from "../assets/projects/innvoicegenerator.png";
 import dashboard from "../assets/projects/dashboard.jpeg";
 import rollingracer from "../assets/projects/rollingracer.png";
+import k8s from "../assets/icons/k8s.png";
+import docker from "../assets/icons/docker.png";
 
 export const SKILLS = [
   {
@@ -64,11 +66,21 @@ export const SKILLS = [
   },
   {
     id: 10,
+    skill: <img alt="docker" src={docker} />,
+    name: "Docker",
+  },
+  {
+    id: 11,
+    skill: <img alt="k8s" src={k8s} />,
+    name: "Kubernetes",
+  },
+  {
+    id: 12,
     skill: <img alt="git" src={git} />,
     name: "Git",
   },
   {
-    id: 11,
+    id: 13,
     skill: <img alt="github" src={github} />,
     name: "GitHub",
   },
