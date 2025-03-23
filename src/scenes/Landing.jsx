@@ -16,7 +16,7 @@ const Landing = ({ setSelectedPage }) => {
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div>
-            <img alt="profile" src={profile} />
+            <img alt="profile" src={profile} style={{width:"370px", height: "370px"}}/>
           </div>
         ) : (
           <img alt="profile" src={profile} />
@@ -41,10 +41,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Experienced React Developer with a passion for creating
-            user-friendly interfaces. Skilled in Javascript, Typescript, React
-            Hook Form, Material UI, React Query, and Chart.js. Delivering
-            high-quality features and scalable applications.
+            UI/UX Designer with a strong background in UI development and expertise in React.js. Passionate about building intuitive, user-friendly interfaces that blend design and functionality seamlessly. Skilled in JavaScript, front-end frameworks, and creating engaging digital experiences.
           </p>
         </motion.div>
 
