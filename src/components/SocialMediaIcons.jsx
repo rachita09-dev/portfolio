@@ -20,6 +20,7 @@ const SocialMediaIcons = () => {
       >
         <img alt="github-link" src={github} />
       </a>
+      
     </div>
   );
 };

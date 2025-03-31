@@ -9,12 +9,8 @@ import figma from "../assets/icons/figma.png";
 import redux from "../assets/icons/redux.png";
 import sass from "../assets/icons/sass.png";
 import bootstrap from "../assets/icons/bootstrap.png";
-import sahayata from "../assets/projects/sahayata.jpg";
-import hiremate from "../assets/projects/hiremate.jpg";
 import newsteller from "../assets/projects/newsteller.jpg";
 import innvoicegenerator from "../assets/projects/innvoicegenerator.png";
-import dashboard from "../assets/projects/dashboard.jpeg";
-import rollingracer from "../assets/projects/rollingracer.png";
 import bitbucket from "../assets/icons/bitbucket.jpeg";
 
 export const SKILLS = [
@@ -45,7 +41,7 @@ export const SKILLS = [
   },
   {
     id: 6,
-    skill: <img alt=" Figma" src={figma} style={{width: "106px", height: "96px"}}/>,
+    skill: <img alt=" Figma" src={figma}/>,
     name: "Figma",
   },
   {
@@ -55,7 +51,7 @@ export const SKILLS = [
   },
   {
     id: 8,
-    skill: <img alt="botstrap" src={bootstrap} style={{width: "96px", height: "96px", borderRadius: "15px"}}/>,
+    skill: <img alt="botstrap" src={bootstrap} style={{borderRadius: "15px"}}/>,
     name: "Bootstrap",
   },
   {
@@ -75,19 +71,12 @@ export const SKILLS = [
   },
   {
     id: 12,
-    skill: <img alt="bitbucket" src={bitbucket} style={{width: "106px", height: "96px"}}/>,
+    skill: <img alt="bitbucket" src={bitbucket} />,
     name: "Bitbucket",
   },
 ];
 
 export const PROJECTS = [
-  // {
-  //   link: "https://github.com/rutul-kulkarni/react-mui-dashboard",
-  //   title: "Metrics Monitor Dashboard",
-  //   techStack: "Tech Stack: ReactJs, Material UI, Javascript, React Hook Form",
-  //   desc: "I developed a React dashboard using Material UI and React Router with real-time data monitoring through multiple charts and reusable components.",
-  //   image: dashboard,
-  // },
   {
     link: "https://github.com/rachita09-dev/Invoice-Generator",
     title: "Invoice Generator",
@@ -102,34 +91,10 @@ export const PROJECTS = [
     desc: "The Daily Scoop is a user-friendly news teller app that delivers breaking news and current events in a simple and streamlined format.",
     image: newsteller,
   }
-  // {
-  //   link: "https://github.com/rutul-kulkarni/boolean-hooligans-main",
-  //   title: "Rolling Racer",
-  //   techStack:
-  //     "Tech Stack- ReactJs, React Three Fiber, Material UI, Javascript",
-  //   desc: "Built a thrilling game using React Three.js where players navigate through obstacles to reach the destination in minimum time. An exciting and challenging game for gamers of all ages.",
-  //   image: rollingracer,
-  // },
-  // {
-  //   link: "https://github.com/rutul-kulkarni/Saahayata",
-  //   title: "Saahayata",
-  //   techStack:
-  //     "Tech Stack- Android Studio, Java, Firebase Authentication, Firebase, Firestore, Google Map API",
-  //   desc: "Our donation application simplifies the giving process, making it easy for you to help NGOs and transform lives.",
-  //   image: sahayata,
-  // },
-  // {
-  //   link: "https://github.com/rutul-kulkarni/PlacementApp",
-  //   title: "HireMate",
-  //   techStack:
-  //     "Tech Stack- Android Studio, Java, Firebase, Firestore, Firebase Authentication",
-  //   desc: "The all-in-one solution for seamless college placement coordination and material distribution, simplifying the hiring process for all parties involved.",
-  //   image: hiremate,
-  // },
 ];
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1xjmN5KUidsdse0yk6e5HEwq2YxMNETaN/view?usp=share_link";
+  "https://drive.google.com/file/d/1KQsqbXrFoeANA_M1XT4DrbephSed0m88/view?usp=drive_link";
 
 export const LINKEDIN_LINK =
   "https://www.linkedin.com/in/rachita-dandekar-624952178/";
